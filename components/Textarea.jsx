@@ -18,7 +18,7 @@ export default function Textarea({
 			)}
 			<div className='relative'>
 				<textarea
-					className={`block bg-slate-700 outline-none rounded-md placeholder:text-sm placeholder:text-[#989DBB] focus:!ring-0 focus:border px-4 py-3 ${classAttr} ${
+					className={`block bg-slate-700 outline-none rounded-md placeholder:text-sm placeholder:text-[#111218] focus:!ring-0 focus:border px-4 py-3 ${classAttr} ${
 						errorAttr ? 'border border-red-500' : ''
 					}`}
 					name={nameAttr}

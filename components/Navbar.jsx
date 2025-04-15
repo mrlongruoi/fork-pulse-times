@@ -19,14 +19,14 @@ export default function Navbar() {
 					<Link href={'/'} className='text-xl flex items-center'>
 						<Image
 							src={
-								'https://res.cloudinary.com/dfahczcmd/image/upload/v1741717115/static-images/l56bb3cmpdevqa3bfm9n.png'
+								'https://res.cloudinary.com/dfxwz99hf/image/upload/v1744619519/company14_zphugj.png'
 							}
 							alt='Logo'
 							width={40}
 							height={40}
 						/>
 						<span className='ml-2 italic'>
-							Pulse<span>Times</span>
+							News | <span>TimesVN</span>
 						</span>
 					</Link>
 				</div>
@@ -117,14 +117,14 @@ export default function Navbar() {
 					</label>
 				</div>
 			</div>
-			<div className='drawer drawer-end z-20'>
+			<div className='drawer drawer-end z-20 '>
 				<input type='checkbox' id='my-drawer-3' className='drawer-toggle' />
 				<div className='drawer-side'>
 					<label
 						htmlFor='my-drawer-3'
 						aria-label='close sidebar'
 						className='drawer-overlay'></label>
-					<div className='menu p-4 w-80 min-h-full bg-base-200 flex flex-col gap-3'>
+					<div className='menu p-4 w-80 min-h-full bg-base-200 text-black flex flex-col gap-3'>
 						<p>
 							<label
 								htmlFor='my-drawer-3'

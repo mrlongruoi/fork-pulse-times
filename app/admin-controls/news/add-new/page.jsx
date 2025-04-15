@@ -32,7 +32,7 @@ export default function AddNews() {
 	}, []);
 
 	return (
-		<div className='grid place-items-center min-h-screen py-24'>
+		<div className='grid place-items-center min-h-screen py-24 text-black'>
 			<form
 				ref={formRef}
 				action={async (formData) => {
@@ -52,7 +52,7 @@ export default function AddNews() {
 					}
 				}}
 				className='w-[90%] sm:w-[580px] shadow-xl p-8 rounded-md flex flex-col gap-3 bg-base-100'>
-				<h2 className='text-white font-bold text-2xl mb-4 self-center'>
+				<h2 className='text-black font-bold text-2xl mb-4 self-center'>
 					Create News
 				</h2>
 

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-	title: 'Pulse Times',
+	title: 'News | TimesVN',
 	description: 'News that creates some impact',
 	metadataBase: new URL(process.env.NEXTAUTH_URL),
 	openGraph: {

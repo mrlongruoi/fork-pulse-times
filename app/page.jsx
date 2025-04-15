@@ -46,7 +46,7 @@ export default async function Home() {
 							<button className='btn bg-primary text-white rounded-full'>
 								Get Started
 							</button>
-							<button className='btn  text-white rounded-full'>
+							<button className='btn text-black rounded-full'>
 								Learn More
 							</button>
 						</div>
